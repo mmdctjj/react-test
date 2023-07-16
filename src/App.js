@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { useEffect } from "react";
+import { Ad } from "./test";
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
         >
           Learn React
         </a>
+        <Ad />
       </header>
     </div>
   );
